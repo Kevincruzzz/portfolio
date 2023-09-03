@@ -1,0 +1,75 @@
+/* Reset some default styles */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a futuristic feel */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+header {
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+/* Add animations or other styles as desired to give it a unique twist */
